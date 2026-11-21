@@ -1,8 +1,9 @@
 // THE WORLD — "The Border Line", Saturday 21 November 2026.
 // Node 22 stdlib-only program. The entry image is entry.png beside this
-// file; the program copies it to /output/entry.png, verifying its size
-// and dimensions first. Deterministic: the same bytes are written every
-// run. No network, no randomness, no Date.
+// file — the front page for 21 November 2026, lead story Russia's
+// missiles land in Poland. The program copies it to /output/entry.png,
+// verifying its size and dimensions first. Deterministic: the same bytes
+// are written every run. No network, no randomness, no Date.
 //
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts

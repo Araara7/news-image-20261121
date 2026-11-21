@@ -23,7 +23,8 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 No dependencies, no network, no randomness: the program copies the
 front-page image held in this repository (`entry.png`) to the output
 directory, verifying its size and dimensions first. Two runs produce
-byte-identical output.
+byte-identical output. The image itself is 1024x1024 and 0.58 MiB, inside
+the gate's caps.
 
 ## Layout (1024x1024)
 
